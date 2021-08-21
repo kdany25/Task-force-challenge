@@ -1,0 +1,103 @@
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+    background: #1E776E ;
+    width: 100%;
+    
+
+}
+
+.row{
+    display: flex;
+    padding: 140px 0;   
+}
+
+.row2{
+    display: flex ;
+    
+    justify-content: space-between;
+    
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.23;
+    width: 100%;
+}
+
+.dev{
+
+color: #FFFFFF;
+opacity: 1;
+margin : 40px;
+}
+
+.des{
+    
+    color: #FFFFFF;
+    opacity: 1;
+    margin : 40px;
+    }
+
+h4{
+    text-align: center;
+font: normal normal bold ;
+color: #FFFFFF;
+
+}
+
+li{
+    list-style: none;
+}
+.col{
+    text-align: center;
+}
+.email {
+    text-align: center;
+font: normal normal bold 16px/19px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.email .em{
+    text-align: center;
+font: normal normal ;
+
+color: #FFFFFF;
+
+}
+
+.phone{
+text-align: center;
+font: normal normal bold ;
+letter-spacing: 0px;
+color: #FFFFFF;
+
+}
+
+.phone .ph{
+ text-align: center;
+font: normal normal 300 24px/29px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+
+}
+
+.profile {
+    text-align: center;
+    font: normal normal bold 16px/19px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    
+    
+}
+
+.profile .pr{
+    text-align: center;
+font: normal normal 300 24px/29px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+
+}

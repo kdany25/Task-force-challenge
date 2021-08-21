@@ -1,0 +1,117 @@
+.continentStatsContainer{
+    text-align: center;
+    margin-top: 250px;
+}
+.statsArea {
+    display: flex;
+    padding: 0 30px;
+    margin-top: 80px;
+}
+.cardd {
+  
+    display: flex;
+    
+  
+    font-family: roboto;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 0px 3px 16px #0000001f;
+    width: 600px;
+    height: 400px;
+    margin-left: 30px;
+    
+  }
+.new-death, .new-recovered, .new-vaccine{
+    
+    padding: 30px 0;
+    
+
+}
+.new-death, .new-recovered{
+    
+   
+    border-bottom: 1px solid #000000;
+
+}
+  .left{
+    
+   /* */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 50%;
+
+    padding: 50px 0;
+  }
+
+
+
+  .left .cont {
+    text-align: center;
+    font: normal normal bold 32px/42px Bebas Neue;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+.left .perday {
+    text-align: center;
+font: normal normal 300 56px/67px Roboto;
+letter-spacing: 0px;
+color: #2FC8B8;
+opacity: 1;
+
+
+}
+.left .case {
+    text-align: center;
+font: normal normal bold 16px/19px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+
+}
+
+.left .allcases {
+    text-align: center;
+font: normal normal 300 16px/19px Roboto;
+letter-spacing: 0px;
+color: #888888;
+opacity: 1;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    background: #2FC8B8 0% 0% no-repeat padding-box;
+border-radius: 0px 8px 8px 0px;
+opacity: 1;
+}
+
+
+.number {
+    text-align: center;
+font: normal normal 300 24px/29px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.text {
+    text-align: center;
+font: normal normal bold 8px/10px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+margin-top: 6px;
+margin-bottom: 15px;
+}
+
+.total {
+    text-align: center;
+font: normal normal 300 10px/13px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
