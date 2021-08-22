@@ -8,10 +8,11 @@ const Header = () => (
     <img src="/Assets/covicalc.svg" alt="covicalc" />
     <div className='contact'>CONTACT</div>
   </div>
-  <div className="search">
+  {/* <div className="search">
     
-       
-  </div>
+       <div className="update"> UPDATES  </div>
+       <div className="searchC">Search Country</div>
+  </div> */}
   </div>
 )
 export default Header;

@@ -5,11 +5,12 @@ import MainCovid from './component/common/MainCovidStats';
 import Footer from './component/common/Footer';
 import Devprofile from './component/common/DevProfile';
 import Continent from './component/common/StatContinent';
-
+import Search from './component/common/SearchCountry';
 function App() {
   return (
     <div className="App">
-       <Header/>  
+       <Header/> 
+      <Search/>
       <MainCovid/>
        <Continent/>
        <Devprofile/>  
